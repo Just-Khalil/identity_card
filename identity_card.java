@@ -138,3 +138,14 @@ public class ContactForm extends JFrame {
     }
 
 }
+
+// + main.java code side
+
+package Khalils;
+
+public class Main {
+    public static void main(String[] args) {
+        ContactForm form = new ContactForm();
+        form.setVisible(true);
+    }
+}
